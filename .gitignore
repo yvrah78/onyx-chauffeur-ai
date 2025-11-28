@@ -1,0 +1,25 @@
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+
+# RAG vector data (local storage)
+.rag-data/
+
+# Environment and secrets (NEVER commit)
+.env
+.env.*
+.env.local
+.env.production
+*.pem
+*.key
+
+# Logs
+*.log
+/tmp/logs/
+
+# Replit specific
+.replit.nix
+.cache/
